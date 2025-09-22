@@ -9,7 +9,7 @@ interface ProjectCardProps {
 const ProjectCard: React.FC<ProjectCardProps> = ({ imageUrl, title, category }) => (
   <div className="group relative overflow-hidden rounded-lg shadow-lg">
     <img src={imageUrl} alt={title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-    <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-70 transition-all duration-300"></div>
+    <div className="absolute inset-0 bg-black/20 backdrop-blur-sm group-hover:bg-black/50 group-hover:backdrop-blur-md transition-all duration-500"></div>
     <div className="absolute inset-0 p-6 flex flex-col justify-end">
       <div className="transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
         <p className="text-cyan-400 text-sm font-semibold">{category}</p>

@@ -42,7 +42,7 @@ const Header: React.FC = () => {
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
-    <header className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-slate-900/80 backdrop-blur-lg shadow-lg' : 'bg-transparent'}`}>
+    <header className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-slate-900/80 backdrop-blur-lg shadow-lg border-b border-slate-700/50' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <a href="#home" className="text-2xl font-bold text-white">
@@ -68,7 +68,7 @@ const Header: React.FC = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`absolute top-20 left-0 w-full bg-slate-900/95 backdrop-blur-lg md:hidden transition-transform duration-300 ease-in-out ${isMenuOpen ? 'transform translate-y-0' : 'transform -translate-y-[150%]'}`}>
+      <div className={`absolute top-20 left-0 w-full bg-slate-900/95 backdrop-blur-lg md:hidden transition-transform duration-300 ease-in-out border-b border-slate-700/50 ${isMenuOpen ? 'transform translate-y-0' : 'transform -translate-y-[150%]'}`}>
         <nav>
           <ul className="flex flex-col items-center space-y-6 py-8">
             {navLinks.map((link) => (

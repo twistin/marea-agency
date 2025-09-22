@@ -12,7 +12,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imageUrl, title, category }) 
     <div className="absolute inset-0 bg-black/20 backdrop-blur-sm group-hover:bg-black/50 group-hover:backdrop-blur-md transition-all duration-500"></div>
     <div className="absolute inset-0 p-6 flex flex-col justify-end">
       <div className="transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-        <p className="text-cyan-400 text-sm font-semibold">{category}</p>
+        <p className="text-[#00A7C0] text-sm font-semibold">{category}</p>
         <h3 className="text-white text-xl font-bold">{title}</h3>
       </div>
     </div>

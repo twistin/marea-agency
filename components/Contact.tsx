@@ -11,12 +11,12 @@ const Contact: React.FC = () => {
           ¿Listo para empezar tu próximo proyecto? Estamos aquí para ayudarte a hacerlo realidad.
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-12">
-          <a href="mailto:hola@marea.agency" className="flex items-center space-x-3 text-lg text-gray-300 hover:text-cyan-400 transition-colors">
-            <MailIcon className="w-8 h-8 text-cyan-400" />
+          <a href="mailto:hola@marea.agency" className="flex items-center space-x-3 text-lg text-gray-300 hover:text-[#00A7C0] transition-colors">
+            <MailIcon className="w-8 h-8 text-[#00A7C0]" />
             <span>hola@marea.agency</span>
           </a>
-          <a href="tel:+521234567890" className="flex items-center space-x-3 text-lg text-gray-300 hover:text-cyan-400 transition-colors">
-            <PhoneIcon className="w-8 h-8 text-cyan-400" />
+          <a href="tel:+521234567890" className="flex items-center space-x-3 text-lg text-gray-300 hover:text-[#00A7C0] transition-colors">
+            <PhoneIcon className="w-8 h-8 text-[#00A7C0]" />
             <span>+52 123 456 7890</span>
           </a>
         </div>

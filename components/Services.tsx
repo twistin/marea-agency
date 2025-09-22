@@ -11,8 +11,8 @@ interface ServiceCardProps {
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) => (
-  <div className="bg-slate-800/40 backdrop-blur-lg p-8 rounded-lg shadow-lg hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300 border border-slate-700/50">
-    <div className="text-cyan-400 mb-4">{icon}</div>
+  <div className="bg-slate-800/40 backdrop-blur-lg p-8 rounded-lg shadow-lg hover:shadow-[#00A7C0]/20 hover:-translate-y-2 transition-all duration-300 border border-slate-700/50">
+    <div className="text-[#00A7C0] mb-4">{icon}</div>
     <h3 className="text-xl font-bold text-white mb-2">{title}</h3>
     <p className="text-gray-400">{description}</p>
   </div>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import MenuIcon from './icons/MenuIcon';
 import XIcon from './icons/XIcon';
+import Logo from './icons/Logo';
 
 interface NavLinkProps {
   href: string;
@@ -13,7 +14,7 @@ const NavLink: React.FC<NavLinkProps> = ({ href, children, onClick }) => (
     <a
       href={href}
       onClick={onClick}
-      className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 text-base font-medium"
+      className="text-gray-300 hover:text-[#00A7C0] transition-colors duration-300 text-base font-medium"
     >
       {children}
     </a>
@@ -45,8 +46,8 @@ const Header: React.FC = () => {
     <header className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-slate-900/80 backdrop-blur-lg shadow-lg border-b border-slate-700/50' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <a href="#home" className="text-2xl font-bold text-white">
-            Marea<span className="text-cyan-400">.</span>Agency
+          <a href="#home" aria-label="Marea Agency Home">
+            <Logo className="h-10 w-auto" />
           </a>
 
           <nav className="hidden md:block">

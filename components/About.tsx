@@ -7,9 +7,9 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Somos la <span className="text-cyan-400">corriente</span> que impulsa tu éxito
+              Somos la <span className="text-[#00A7C0]">corriente</span> que impulsa tu éxito
             </h2>
-            <div className="w-24 h-1 bg-cyan-400 mb-6"></div>
+            <div className="w-24 h-1 bg-[#00A7C0] mb-6"></div>
             <p className="text-gray-300 mb-4">
               En Marea Agency, somos más que una agencia digital; somos tus socios estratégicos en el vasto océano del mercado online. Nacimos de la pasión por la tecnología y la creatividad, con la misión de ayudar a las marcas a navegar y prosperar en el entorno digital.
             </p>

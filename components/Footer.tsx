@@ -1,4 +1,3 @@
-
 import React from 'react';
 import LinkedInIcon from './icons/LinkedInIcon';
 import InstagramIcon from './icons/InstagramIcon';

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import WhatsAppIcon from './icons/WhatsAppIcon';
 

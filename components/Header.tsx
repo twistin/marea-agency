@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import MenuIcon from './icons/MenuIcon';
 import XIcon from './icons/XIcon';

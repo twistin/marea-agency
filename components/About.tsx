@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const About: React.FC = () => {
@@ -20,7 +19,7 @@ const About: React.FC = () => {
           </div>
           <div className="order-1 md:order-2">
             <img 
-              src="https://picsum.photos/seed/agency/600/500" 
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
               alt="Equipo de Marea Agency colaborando" 
               className="rounded-lg shadow-2xl w-full h-auto object-cover" 
             />

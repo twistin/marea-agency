@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CodeIcon from './icons/CodeIcon';
 import MegaphoneIcon from './icons/MegaphoneIcon';

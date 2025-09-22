@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
         </p>
         <a 
           href="#contact" 
-          className="inline-block bg-cyan-500 text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-cyan-600 transition-transform transform hover:scale-105 duration-300 shadow-lg shadow-cyan-500/30"
+          className="inline-block bg-cyan-500/20 backdrop-blur-lg text-white font-bold py-3 px-8 rounded-full text-lg border border-cyan-400/50 transition-all duration-300 hover:bg-cyan-500/40 hover:border-cyan-400/80 hover:shadow-cyan-400/40 shadow-lg transform hover:scale-105"
         >
           Hablemos de tu Proyecto
         </a>
